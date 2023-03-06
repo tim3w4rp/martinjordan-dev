@@ -1,0 +1,14 @@
+---
+interface Props {
+	id: string;
+}
+
+const { id } = Astro.props;
+---
+
+<section
+	class='flex flex-col min-h-screen justify-start pt-[74px] sm:pt-0 sm:justify-center'
+	id={id}
+>
+	<slot />
+</section>
