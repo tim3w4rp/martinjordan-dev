@@ -1,0 +1,25 @@
+---
+import { CONTACT } from '../constants';
+import LinkButton from './LinkButton.astro';
+---
+
+<div
+	class='flex flex-col gap-4 sm:gap-8 flex-auto justify-start sm:justify-center'
+>
+	<h2 class='font-bold text-6xl sm:text-8xl'>{CONTACT}</h2>
+	<div class='flex flex-col gap-4'>
+		<div class='font-bold'>I'm currently looking for new opportunities.</div>
+		<div>
+			Please, don't hesitate to contact me with one of the following options:
+		</div>
+		<div class='flex gap-2'>
+			<LinkButton href='mailto:martin@jordan.cz' icon='mail'>Email</LinkButton>
+			<LinkButton
+				href='https://www.linkedin.com/in/martin-jordan/'
+				icon='linkedin'
+			>
+				LinkedIn
+			</LinkButton>
+		</div>
+	</div>
+</div>
