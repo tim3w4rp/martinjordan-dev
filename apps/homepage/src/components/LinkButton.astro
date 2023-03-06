@@ -1,0 +1,26 @@
+---
+interface Props {
+	href?: string;
+	icon?:
+		| 'play'
+		| 'play-fill'
+		| 'mail'
+		| 'linkedin'
+		| 'code-bracket'
+		| 'git'
+		| 'github';
+}
+
+const { href, icon } = Astro.props;
+---
+
+<a
+	data-drawer-hide='drawer-right-example'
+	href={href}
+	referrerpolicy='no-referrer'
+	target='_blank'
+	class='flex flex-row items-center max-w-fit gap-2 font-bold px-3 py-2 border border-black rounded hover:bg-gray-200'
+>
+	{icon ? <img width={24} src={`../../public/${icon}.svg`} /> : null}
+	<slot />
+</a>
