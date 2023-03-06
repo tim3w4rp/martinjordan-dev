@@ -21,6 +21,6 @@ const { href, icon } = Astro.props;
 	target='_blank'
 	class='flex flex-row items-center max-w-fit gap-2 font-bold px-3 py-2 border border-black rounded hover:bg-gray-200'
 >
-	{icon ? <img width={24} src={`../../public/${icon}.svg`} /> : null}
+	{icon ? <img width={24} src={`/${icon}.svg`} /> : null}
 	<slot />
 </a>
