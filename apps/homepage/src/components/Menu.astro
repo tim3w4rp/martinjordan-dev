@@ -1,0 +1,29 @@
+---
+import DrawerButton from './DrawerButton.astro';
+import LinkButton from './LinkButton.astro';
+import UnderlineAnimate from './UnderlineAnimate.astro';
+
+interface Props {
+	items: Array<{ id: string; value: string }>;
+}
+
+const { items } = Astro.props;
+---
+
+<nav>
+	<ul class='hidden xl:flex gap-8 items-center'>
+		{
+			items.map(({ id, value }) => (
+				<UnderlineAnimate>
+					<li>
+						<a href={`#${id}`}>{value}</a>
+					</li>
+				</UnderlineAnimate>
+			))
+		}
+		<LinkButton href='resume.pdf'>Resume</LinkButton>
+	</ul>
+	<div class='xl:hidden flex'>
+		<DrawerButton />
+	</div>
+</nav>
