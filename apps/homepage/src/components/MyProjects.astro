@@ -1,0 +1,26 @@
+---
+import { MY_PROJECTS } from '../constants';
+import LinkButton from './LinkButton.astro';
+---
+
+<div
+	class='flex flex-col gap-4 sm:gap-8 flex-auto justify-start sm:justify-center'
+>
+	<h2 class='font-bold text-6xl sm:text-8xl'>{MY_PROJECTS}</h2>
+	<div class='flex flex-col gap-4'>
+		<div class='font-bold'>Projects coming soon!</div>
+		<div class='flex flex-col gap-2'>
+			<div>Meanwhile, you can have look at my github:</div>
+			<LinkButton href='https://github.com/tim3w4rp' icon='github'
+				>github.com/tim3w4rp</LinkButton
+			>
+		</div>
+		<div class='flex flex-col gap-2'>
+			<div>Also, you can see the code for this website here:</div>
+			<LinkButton
+				href='https://github.com/tim3w4rp/martinjordan-dev/tree/main/apps/homepage'
+				icon='git'>See code</LinkButton
+			>
+		</div>
+	</div>
+</div>
