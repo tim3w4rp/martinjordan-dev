@@ -1,0 +1,73 @@
+---
+import { ABOUT_ME } from '../constants';
+
+const technologies = [
+	'React',
+	'Next.js',
+	'TypeScript',
+	'Storybook',
+	'Jest',
+	'Apollo',
+	'GraphQL',
+	'REST',
+];
+---
+
+<div class='flex flex-row lg:gap-14'>
+	<div class='flex flex-col gap-4 md:gap-4 xl:gap-8 max-w-4xl'>
+		<h2 class='font-bold text-4xl sm:text-6xl md:text-8xl'>
+			{ABOUT_ME}
+		</h2>
+
+		<div class='flex flex-row gap-4 sm:gap-8 items-center'>
+			<img
+				class='rounded-full xl:hidden md:w-[200px] md:h-[200px] w-[100px] h-[100px]'
+				width='200'
+				height='200'
+				src='./public/M.jpg'
+			/>
+			<ul class='flex flex-col gap-1 sm:gap-2 font-bold'>
+				<li>• Cautious Optimist</li>
+				<li>• Liberal Perfectionist</li>
+				<li>• Radical Candor Maximalist</li>
+			</ul>
+		</div>
+
+		<div class='flex flex-col gap-6 md:gap-8'>
+			<p>
+				I am a determined and enthusiastic individual who likes working with
+				people. I consider myself to be a logical and goal-oriented person.
+			</p>
+			<p>
+				When I'm working on a task I always strive for perfection. <br />
+				At the same time, I realize that sometimes, approximating towards it is the
+				best that can be done.
+			</p>
+			<p>My aim is to always be moving forward and learning new things.</p>
+			<div>
+				<span class='font-bold'>Technologies I've worked with the most:</span>
+				<ul class='grid grid-flow-col grid-rows-4'>
+					{
+						technologies.map((technology) => (
+							<li class='flex flex-row'>
+								<img src='./public/chevron-right.svg' width={24} />
+								{technology}
+							</li>
+						))
+					}
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div
+		class='flex-row hidden xl:flex justify-end xl:flex-auto items-center min-w-[400px] min-h-[400px]'
+	>
+		<img
+			class='rounded-full justify-center'
+			width='400'
+			height='400'
+			src='./public/M.jpg'
+		/>
+	</div>
+</div>
