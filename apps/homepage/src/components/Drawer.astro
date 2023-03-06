@@ -1,0 +1,49 @@
+---
+import { menuItems } from '../constants';
+import LinkButton from './LinkButton.astro';
+---
+
+<div
+	id='drawer-right-example'
+	class='flex flex-col justify-between gap-4 fixed top-0 right-0 z-40 h-full p-4 sm:p-6 overflow-y-auto transition-transform translate-x-full bg-white w-80 dark:bg-gray-800'
+	tabindex='1'
+	aria-labelledby='drawer-right-label'
+>
+	<div class='flex flex-col gap-4'>
+		<div class='flex justify-end'>
+			<button
+				type='button'
+				data-drawer-hide='drawer-right-example'
+				aria-controls='drawer-right-example'
+				class='text-black bg-transparent hover:bg-gray-200 hover:text-gray-900 border border-black rounded p-2 items-center'
+			>
+				<img width={24} src={`../../public/x-mark.svg`} />
+				<span class='sr-only'>Close menu</span>
+			</button>
+		</div>
+
+		<ul class='flex flex-col divide-y divide-black'>
+			{
+				menuItems.map(({ id, value }) => (
+					<a
+						data-drawer-hide='drawer-right-example'
+						class='p-4 hover:bg-gray-200'
+						href={`#${id}`}
+					>
+						<li>{value}</li>
+					</a>
+				))
+			}
+		</ul>
+	</div>
+
+	<div class='flex justify-end gap-4'>
+		<LinkButton href='mailto:martin@jordan.cz' icon='mail' />
+		<LinkButton href='https://github.com/tim3w4rp' icon='github' />
+		<LinkButton
+			href='https://www.linkedin.com/in/martin-jordan/'
+			icon='linkedin'
+		/>
+		<LinkButton href='resume.pdf'>CV</LinkButton>
+	</div>
+</div>
