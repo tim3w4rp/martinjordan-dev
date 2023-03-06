@@ -1,0 +1,81 @@
+---
+import { EXPERIENCE } from '../constants';
+import LinkButton from './LinkButton.astro';
+---
+
+<div class='flex flex-col gap-4 sm:gap-8'>
+	<h2 class='font-bold text-6xl sm:text-8xl'>{EXPERIENCE}</h2>
+	<div class='flex flex-col gap-8'>
+		<div class='flex flex-col gap-4'>
+			<div class='flex flex-col gap-2'>
+				<h3 class='font-bold text-2xl'>
+					Frontend developer @
+					<a class='underline' target='_blank' href='https://www.reservio.com'>
+						Reservio
+					</a>
+				</h3>
+				<h4 class='italic'>November 2021 - Present</h4>
+				<p class='flex flex-row items-start'>
+					<img src='./public/chevron-right.svg' width={24} />
+					Delivered new features for a reservations system in a self-organizing manner
+					from refinement with the product manager to deploying to production.
+				</p>
+				<p>
+					Skills: React, Next.js, TypeScript, Apollo, GraphQL, REST, React Hook
+					Form, CSS-in-JS
+				</p>
+			</div>
+			<LinkButton icon='play-fill' href='https://second-job.martinjordan.dev'>
+				Skills showcase
+			</LinkButton>
+		</div>
+
+		<div class='flex flex-col gap-2'>
+			<h3 class='font-bold text-2xl'>
+				Scrum master @
+				<a class='underline' target='_blank' href='https://www.24i.com'>24i</a>
+			</h3>
+			<h4 class='italic'>February 2021 - October 2021</h4>
+			<ul class='flex flex-col gap-1'>
+				<li class='flex flex-row items-start'>
+					<img src='./public/chevron-right.svg' width={24} />
+					Facilitated remote Scrum ceremonies for up to 3 international teams.
+				</li>
+				<li class='flex flex-row items-start'>
+					<img src='./public/chevron-right.svg' width={24} />
+					<span>
+						Defined team member's roles and responsibilities in the engineering
+						department of 60 people.
+					</span>
+				</li>
+				<li class='flex flex-row items-start'>
+					<img src='./public/chevron-right.svg' width={24} />
+					Reduced management complexity across 9 engineering teams by unifying ways
+					of working.
+				</li>
+			</ul>
+			<p>Skills: Communication, Meeting organization, Planning</p>
+		</div>
+
+		<div class='flex flex-col gap-4'>
+			<div class='flex flex-col gap-2'>
+				<h3 class='font-bold text-2xl'>
+					Javascript developer @
+					<a class='underline' target='_blank' href='https://www.24i.com'>24i</a
+					>
+				</h3>
+				<h4 class='italic'>November 2018 - February 2021</h4>
+				<ul>
+					<li class='flex flex-row items-start'>
+						<img src='./public/chevron-right.svg' width={24} />
+						Implemented several functionalities for Smart TV devices (Samsung, LG).
+					</li>
+				</ul>
+				<p>Skills: React, TypeScript, Sass</p>
+			</div>
+			<LinkButton icon='play-fill' href='https://first-job.martinjordan.dev'>
+				Skills showcase
+			</LinkButton>
+		</div>
+	</div>
+</div>
