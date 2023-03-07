@@ -11,8 +11,8 @@ export const CONTACT = 'Contact';
 export const RESUME = 'Resume';
 
 export const menuItems = [
-	{ id: ID_ABOUT_ME, value: ABOUT_ME },
-	{ id: ID_EXPERIENCE, value: EXPERIENCE },
-	{ id: ID_MY_PROJECTS, value: MY_PROJECTS },
-	{ id: ID_CONTACT, value: CONTACT },
+  { id: ID_ABOUT_ME, value: ABOUT_ME },
+  { id: ID_EXPERIENCE, value: EXPERIENCE },
+  { id: ID_MY_PROJECTS, value: MY_PROJECTS },
+  { id: ID_CONTACT, value: CONTACT },
 ];
