@@ -22,10 +22,12 @@ importers:
       react-dom: ^18.2.0
       tsconfig: workspace:*
       typescript: ^4.9.3
+      ui: workspace:*
       vite: ^4.1.0
     dependencies:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
+      ui: link:../../packages/ui
     devDependencies:
       '@types/react': 18.0.28
       '@types/react-dom': 18.0.11
@@ -39,27 +41,33 @@ importers:
     specifiers:
       '@astrojs/tailwind': ^3.0.1
       astro: ^2.0.16
+      eslint-config-custom: workspace:*
       flowbite: ^1.6.3
       postcss: ^8.4.14
       tailwindcss: ^3.0.24
+      tsconfig: workspace:*
     dependencies:
       '@astrojs/tailwind': 3.0.1_dcffs6vszochbmkyu5n7efg4ri
       astro: 2.0.16
       flowbite: 1.6.3
       postcss: 8.4.21
       tailwindcss: 3.2.7_postcss@8.4.21
+    devDependencies:
+      eslint-config-custom: link:../../packages/eslint-config-custom
+      tsconfig: link:../../packages/tsconfig
 
   apps/second-job:
     specifiers:
       '@types/node': 18.14.4
       '@types/react': ^18.0.17
       '@types/react-dom': ^18.0.6
+      eslint-config-custom: workspace:*
       next: 13.2.3
       react: ^18.2.0
       react-dom: 18.2.0
       tsconfig: workspace:*
       typescript: 4.9.5
-      ui: workspace:ui
+      ui: workspace:*
     dependencies:
       next: 13.2.3_biqbaboplfbrettd7655fr4n2y
       react: 18.2.0
@@ -69,6 +77,7 @@ importers:
       '@types/node': 18.14.4
       '@types/react': 18.0.28
       '@types/react-dom': 18.0.11
+      eslint-config-custom: link:../../packages/eslint-config-custom
       tsconfig: link:../../packages/tsconfig
       typescript: 4.9.5
 
