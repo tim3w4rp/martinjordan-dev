@@ -1,4 +1,5 @@
-import * as React from 'react';
-export const Button = () => {
+import React from 'react';
+
+export default function Button() {
   return <button>Boop</button>;
-};
+}

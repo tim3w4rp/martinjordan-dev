@@ -2,6 +2,12 @@
   "$schema": "https://json.schemastore.org/tsconfig",
   "display": "Default",
   "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "noEmit": true,
+    "module": "ESNext",
+    "jsx": "react-jsx",
+    "allowSyntheticDefaultImports": true,
     "composite": false,
     "declaration": true,
     "declarationMap": true,
@@ -9,12 +15,17 @@
     "forceConsistentCasingInFileNames": true,
     "inlineSources": false,
     "isolatedModules": true,
-    "moduleResolution": "node",
+    "moduleResolution": "Node",
     "noUnusedLocals": false,
     "noUnusedParameters": false,
     "preserveWatchOutput": true,
     "skipLibCheck": true,
-    "strict": true
+    "strict": true,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "incremental": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true
   },
   "exclude": ["node_modules"]
 }
