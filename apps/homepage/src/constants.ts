@@ -1,3 +1,4 @@
+export const MARTIN_JORDAN = 'Martin Jordán';
 export const PAGE_TITLE = 'martinjordan.dev';
 export const ID_ABOUT_ME = 'about-me';
 export const ID_HERO = 'hero';
