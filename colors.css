@@ -1,0 +1,558 @@
+
+:root {
+    --colorColorAcidWash: #0368ff;    
+    --colorColorPurpleRain: #ca7cd8;    
+    --colorColorElectronic: #10e7e2;    
+    --colorColorFlamingo: #f85097;    
+    --colorColorPowersuit: #ff2153;    
+    --colorColorBlack: #484848;    
+    --colorColorWhite: #ffffff;    
+    --colorColorSilver: #9e9e9e;    
+    --colorColorNewStyle: #d9d9d9;    
+    --colorColorPacman: #f9eb0f;    
+    --colorColorFuschia: #c910e7;    
+    --colorColorNeonGreen: #47ff37;    
+    --colorNeutralText: #dfdfdf;    
+    --colorNeutralTextWeak: #949494;    
+    --colorNeutralTextDisabled: #737373;    
+    --colorNeutralTextInverted: #000000;    
+    --colorNeutralBackground: #000000;    
+    --colorNeutralBackgroundMedium: #080808;    
+    --colorNeutralBackgroundStrong: #171717;    
+    --colorNeutralBackgroundDisabled: #080808;    
+    --colorNeutralBorder: #949494;    
+    --colorNeutralBorderWeak: #171717;    
+    --colorNeutralBorderHover: #dfdfdf;    
+    --colorNeutralBorderDisabled: #595959;    
+    --colorNeutralBorderWeakHover: #949494;    
+    --colorPrimaryTextHover: #fdc9a6;    
+    --colorPrimaryTextActive: #fdd8be;    
+    --colorPrimaryText: #fba26f;    
+    --colorPrimaryTextWeak: #373737;    
+    --colorPrimaryTextWeakHover: #321c0d;    
+    --colorPrimaryTextWeakActive: #643819;    
+    --colorPrimaryTextStrong: #fdc9a6;    
+    --colorPrimaryTextStrongHover: #fed8be;    
+    --colorPrimaryTextStrongActive: #fee7d7;    
+    --colorPrimaryBackground: #321c0d;    
+    --colorPrimaryBackgroundHover: #643819;    
+    --colorPrimaryBackgroundActive: #965326;    
+    --colorPrimaryBackgroundWeak: #000000;    
+    --colorPrimaryBackgroundWeakHover: #321c0d;    
+    --colorPrimaryBackgroundWeakActive: #643819;    
+    --colorPrimaryBackgroundStrong: #fba265;    
+    --colorPrimaryBackgroundStrongHover: #fcb98c;    
+    --colorPrimaryBackgroundStrongActive: #fdd1b2;    
+    --colorPrimaryBorder: #c98251;    
+    --colorPrimaryBorderHover: #fcb98c;    
+    --colorPrimaryBorderActive: #fdd1b2;    
+    --colorDangerText: #c34648;    
+    --colorDangerTextHover: #b53b3d;    
+    --colorDangerTextActive: #a23436;    
+    --colorDangerTextWeak: #ffffff;    
+    --colorDangerTextWeakHover: #ffe1e2;    
+    --colorDangerTextWeakActive: #ffc4c5;    
+    --colorDangerTextStrong: #a83335;    
+    --colorDangerTextStrongHover: #952d2f;    
+    --colorDangerTextStrongActive: #812729;    
+    --colorDangerBackground: #ffe1e2;    
+    --colorDangerBackgroundHover: #ffc4c5;    
+    --colorDangerBackgroundActive: #ffa7a9;    
+    --colorDangerBackgroundWeak: #ffffff;    
+    --colorDangerBackgroundWeakHover: #ffe1e2;    
+    --colorDangerBackgroundWeakActive: #ffc4c5;    
+    --colorDangerBackgroundStrong: #c34648;    
+    --colorDangerBackgroundStrongHover: #b53b3d;    
+    --colorDangerBackgroundStrongActive: #a23436;    
+    --colorDangerBorder: #c34648;    
+    --colorDangerBorderHover: #b53b3d;    
+    --colorDangerBorderActive: #a23436;    
+    --colorSuccessText: #39812c;    
+    --colorSuccessTextHover: #316e26;    
+    --colorSuccessTextActive: #285b1f;    
+    --colorSuccessTextWeak: #ffffff;    
+    --colorSuccessTextWeakHover: #ddf2d9;    
+    --colorSuccessTextWeakActive: #ccebc6;    
+    --colorSuccessTextStrong: #316e26;    
+    --colorSuccessTextStrongHover: #295b1f;    
+    --colorSuccessTextStrongActive: #204819;    
+    --colorSuccessBackground: #ddf2d9;    
+    --colorSuccessBackgroundHover: #ccebc6;    
+    --colorSuccessBackgroundActive: #bbe5b3;    
+    --colorSuccessBackgroundWeak: #ffffff;    
+    --colorSuccessBackgroundWeakHover: #ddf2d9;    
+    --colorSuccessBackgroundWeakActive: #ccebc6;    
+    --colorSuccessBackgroundStrong: #39812c;    
+    --colorSuccessBackgroundStrongHover: #316e26;    
+    --colorSuccessBackgroundStrongActive: #285b1f;    
+    --colorSuccessBorder: #39812c;    
+    --colorSuccessBorderHover: #316e26;    
+    --colorSuccessBorderActive: #285b1f;    
+    --colorWarningText: #af4a0e;    
+    --colorWarningTextHover: #80360a;    
+    --colorWarningTextActive: #682c08;    
+    --colorWarningTextWeak: #ffffff;    
+    --colorWarningTextWeakHover: #fce6d9;    
+    --colorWarningTextWeakActive: #f8c7aa;    
+    --colorWarningTextStrong: #80360a;    
+    --colorWarningTextStrongHover: #682c08;    
+    --colorWarningTextStrongActive: #502206;    
+    --colorWarningBackground: #fce6d9;    
+    --colorWarningBackgroundHover: #f8c7aa;    
+    --colorWarningBackgroundActive: #f4a87b;    
+    --colorWarningBackgroundWeak: #ffffff;    
+    --colorWarningBackgroundWeakHover: #fce6d9;    
+    --colorWarningBackgroundWeakActive: #f8c7aa;    
+    --colorWarningBackgroundStrong: #af4a0e;    
+    --colorWarningBackgroundStrongHover: #97400c;    
+    --colorWarningBackgroundStrongActive: #502206;    
+    --colorWarningBorder: #af4a0e;    
+    --colorWarningBorderHover: #97400c;    
+    --colorWarningBorderActive: #502206;    
+    --colorAssistiveText: #ffffff;    
+    --colorAssistiveBackground: #050d15;    
+    --colorAssistiveBorder: #797979;    
+    --colorAssistiveBorderFocus: #6664d1;    
+    --colorBrandingCoral: #ff6d70;    
+    --colorBrandingStitch: #ffcc00;    
+    --colorChartsNeutral: #363636;    
+    --colorChartsPositive: #39812c;    
+    --colorChartsNegative: #c34648;    
+    /* Primary interactive color */
+    --colorSemanticPrimary: #0f62fe;    
+    /* Success states, Confirm actions */
+    --colorSemanticSuccess: #00a454;    
+    /* Failure states, actions which can not be undone */
+    --colorSemanticCritical: #d23031;    
+    /* Use when something is wrong but not critical */
+    --colorSemanticWarning: #e36b00;    
+    /* ✏ Use for upgrading plan */
+    --colorSemanticUpgrade: #874ce6;    
+    /* 
+    ⚪️ Use only on LIGHT Background
+    
+    ✏️ Headings */
+    --colorOnLightForegroundBlack: #040a1e;    
+    /* 
+    ⚪️ Use only on LIGHT Background
+    
+    ✏️ Primary texts, Icons */
+    --colorOnLightForeground01: #2f344d;    
+    /* 
+    ⚪️ Use only on LIGHT Background
+    
+    ✏️ Only for hover of Foreground 03 */
+    --colorOnLightForeground02: #676d8a;    
+    /* 
+    ⚪️ Use only on LIGHT Background
+    
+    ✏️ Secondary texts, Icons */
+    --colorOnLightForeground03: #888da7;    
+    /* 
+    ⚪️ Use only on LIGHT Background
+    
+    ✏️ Placeholders, Disabled texts, Default Icon color if alone */
+    --colorOnLightForeground04: #a4a8bc;    
+    /* 
+    ⚪️ Use on LIGHT Background
+    
+    ✏️ Dividers, Disabled Borders, Structural layout */
+    --colorOnLightBorderLowContrast: #f3f4f8;    
+    /* 
+    ⚪️ Use on LIGHT Background
+    
+    ✏️ Dividers, Borders, Structural layout */
+    --colorOnLightBorderMediumContrast: #dddfe7;    
+    --colorOnLightBorderHighContrast: #c3c6d5;    
+    --colorOnDarkForegroundWhite: #ffffff;    
+    --colorOnDarkForeground01: #dddfe7;    
+    --colorOnDarkForeground02: #888da7;    
+    --colorOnDarkForeground03: #676d8a;    
+    --colorOnDarkBorderWhite: #ffffff;    
+    /* 
+    ⚫️ Use on DARK Background
+    
+    ✏️ Dividers, Layout structure */
+    --colorOnDarkBorderLowContrast: #1b1f2f;    
+    /* 
+    ⚫️ Use on DARK Background
+    
+    ✏️ Dividers, Input borders, Layout structure */
+    --colorOnDarkBorderHighContrast: #2f344d;    
+    /* ✏️ Only for neutral backgrounds */
+    --colorLightBackgroundWhite: #ffffff;    
+    /* ✏️ Only for neutral backgrounds */
+    --colorLightBackground01: #f9f9fb;    
+    /* ✏️ Only for neutral backgrounds */
+    --colorLightBackground02: #f3f4f8;    
+    /* ✏️ Only for neutral backgrounds */
+    --colorLightBackground03: #dddfe7;    
+    /* ✏️ Only for primary backgrounds */
+    --colorLightBackgroundPrimary: #edf5ff;    
+    /* ✏️ Only for success backgrounds */
+    --colorLightBackgroundSuccess: #d3fede;    
+    /* ✏️ Only for critical backgrounds */
+    --colorLightBackgroundCritical: #fff0f0;    
+    /* ✏️ Only for warning backgrounds */
+    --colorLightBackgroundWarning: #fff2e8;    
+    /* ✏️ Only for upgrade plan backgrounds */
+    --colorLightBackgroundUpgrade: #f5f2fd;    
+    /* ✏️ Only for neutral backgrounds */
+    --colorDarkBackgroundBlack: #040a1e;    
+    /* ✏️ Only for neutral backgrounds */
+    --colorDarkBackground01: #0d142a;    
+    /* ✏️ Only for neutral backgrounds */
+    --colorDarkBackground02: #1b1f2f;    
+    /* ✏️ Only for neutral backgrounds */
+    --colorDarkBackground03: #2f344d;    
+    --colorDarkBackground04: #474e6c;    
+    --colorStatesSemanticPrimaryDark: #0043ce;    
+    --colorStatesSemanticPrimaryLight: #4589ff;    
+    --colorStatesSemanticSuccessDark: #008141;    
+    --colorStatesSemanticSuccessLight: #4cbe75;    
+    --colorStatesSemanticCriticalDark: #9e2122;    
+    --colorStatesSemanticCriticalLight: #f75556;    
+    --colorStatesSemanticWarningDark: #ba4e00;    
+    --colorStatesSemanticWarningLight: #ff832b;    
+    --colorStatesSemanticUpgradeLight: #9f78ed;    
+    --colorStatesSemanticUpgradeDark: #6a2bbf;    
+    --colorStatesLightBackgroundPrimaryDark: #d0e2ff;    
+    --colorStatesLightBackgroundSuccessDark: #a4f1bb;    
+    --colorStatesLightBackgroundCriticalDark: #ffd6d6;    
+    --colorStatesLightBackgroundWarningDark: #ffd9be;    
+    --colorStatesLightBackgroundUpgradeDark: #e3dbfa;    
+    --colorSpecialBlanket: #14161866;    
+    --colorSpecialBlanketDark: #14161899;    
+    --colorSpecialLighterTransparentBorder: #ffffff3d;    
+    --colorSpecialDarkerTransparentBorder: #00000014;    
+    --colorSpecialLighterTransparentHover: #ffffff12;    
+    --colorSpecialDarkerTransparentHover: #3d4c930f;    
+    --colorSpecialTokenThumbnailBorderOnLight: #1416181f;    
+    --colorSpecialTokenThumbnailBorderOnDark: #ffffff3d;    
+    --colorSpecialPrimaryTransparentSelect: #4589ff3d;    
+    --colorSpecialPrimaryTransparentLight: #4589ff14;    
+    --colorSpecialInlineCodeBackground: #1416180f;    
+    --colorCodeDirectlyExported: #141618;    
+    --colorCodeKeywords: #4589ff;    
+    --colorCodeNumbers: #009e9e;    
+    --colorCodeStrings: #d23031;    
+    --colorCodeFunctions: #008141;    
+    --colorCodeMethods: #874ce6;    
+    --colorCodeControlSymbols: #b28600;    
+    --colorCodeCode: #363a3e;    
+    --colorCodeComment: #868f98;    
+    --colorAutocompleteSnippetLight: #fef0f5;    
+    --colorAutocompleteSnippet: #f44ca2;    
+    --colorAutocompleteSnippetDark: #cc2882;    
+    --colorAutocompleteVariableLight: #d3fede;    
+    --colorAutocompleteVariable: #00a454;    
+    --colorAutocompleteVariableDark: #008141;    
+    --colorAutocompleteMethodLight: #fcf4d6;    
+    --colorAutocompleteMethod: #b28600;    
+    --colorAutocompleteMethodDark: #8e6a00;    
+    --colorAutocompleteTransformerLight: #edf5ff;    
+    --colorAutocompleteTransformer: #4589ff;    
+    --colorAutocompleteTransformerDark: #0f62fe;    
+    /* Same as Primary/white */
+    --colorBaseWhite0: #ffffff;    
+    --colorBaseDmGray5: #f9f9fb;    
+    --colorBaseDmGray10: #f3f4f8;    
+    --colorBaseDmGray20: #dddfe7;    
+    --colorBaseDmGray30: #c3c6d5;    
+    --colorBaseDmGray40: #a4a8bc;    
+    --colorBaseDmGray50: #888da7;    
+    --colorBaseDmGray60: #676d8a;    
+    --colorBaseDmGray70: #474e6c;    
+    --colorBaseDmGray80: #2f344d;    
+    --colorBaseDmGray90: #1b1f2f;    
+    --colorBaseDmGray95: #0d142a;    
+    --colorBaseDmGray100: #040a1e;    
+    --colorBaseGrey5: #f9f9fa;    
+    --colorBaseGrey10: #f2f4f5;    
+    --colorBaseGrey20: #dce0e4;    
+    --colorBaseGrey30: #c0c7ce;    
+    --colorBaseGrey40: #9faab4;    
+    --colorBaseGrey50: #868f98;    
+    --colorBaseGrey60: #697077;    
+    --colorBaseGrey70: #4e5358;    
+    --colorBaseGrey80: #363a3e;    
+    --colorBaseGrey90: #232629;    
+    --colorBaseGrey95: #191c1e;    
+    /* Same as Primary/sn-black */
+    --colorBaseGrey100: #141618;    
+    --colorBaseBlue5: #f6faff;    
+    --colorBaseBlue10: #edf5ff;    
+    --colorBaseBlue20: #d0e2ff;    
+    --colorBaseBlue30: #a6c8ff;    
+    --colorBaseBlue40: #78a9ff;    
+    --colorBaseBlue50: #4589ff;    
+    --colorBaseBlue60: #0f62fe;    
+    --colorBaseBlue70: #0043ce;    
+    --colorBaseBlue80: #002d9c;    
+    --colorBaseBlue90: #001d6c;    
+    --colorBaseBlue95: #00175a;    
+    --colorBaseBlue100: #001141;    
+    --colorBaseGreen5: #eafeef;    
+    --colorBaseGreen10: #d3fede;    
+    --colorBaseGreen20: #a4f1bb;    
+    --colorBaseGreen30: #7fda9b;    
+    --colorBaseGreen40: #4cbe75;    
+    --colorBaseGreen50: #00a454;    
+    --colorBaseGreen60: #008141;    
+    --colorBaseGreen70: #00602f;    
+    --colorBaseGreen80: #00431f;    
+    --colorBaseGreen90: #002d12;    
+    --colorBaseGreen95: #00250d;    
+    --colorBaseGreen100: #001a08;    
+    --colorBaseRed5: #fff8f8;    
+    --colorBaseRed10: #fff0f0;    
+    --colorBaseRed20: #ffd6d6;    
+    --colorBaseRed30: #ffb3b3;    
+    --colorBaseRed40: #ff8484;    
+    --colorBaseRed50: #f75556;    
+    /* Same as Accent/sn-red */
+    --colorBaseRed60: #d23031;    
+    --colorBaseRed70: #9e2122;    
+    --colorBaseRed80: #711516;    
+    --colorBaseRed90: #4e0b0c;    
+    --colorBaseRed95: #400708;    
+    --colorBaseRed100: #310505;    
+    --colorBaseOrange5: #fff8f3;    
+    --colorBaseOrange10: #fff2e8;    
+    --colorBaseOrange20: #ffd9be;    
+    --colorBaseOrange30: #ffb784;    
+    --colorBaseOrange40: #ff832b;    
+    --colorBaseOrange50: #e36b00;    
+    --colorBaseOrange60: #ba4e00;    
+    --colorBaseOrange70: #8a3800;    
+    --colorBaseOrange80: #5e2900;    
+    --colorBaseOrange90: #3e1a00;    
+    --colorBaseOrange95: #331400;    
+    --colorBaseOrange100: #231000;    
+    --colorBasePurple5: #faf9fe;    
+    --colorBasePurple10: #f5f2fd;    
+    --colorBasePurple20: #e3dbfa;    
+    --colorBasePurple30: #cebef7;    
+    --colorBasePurple40: #b49af2;    
+    --colorBasePurple50: #9f78ed;    
+    --colorBasePurple60: #874ce6;    
+    /* Use for icons and badges */
+    --colorBasePurple70: #6a2bbf;    
+    /* Use for background with white text */
+    --colorBasePurple80: #4a1c89;    
+    /* Use for icons */
+    --colorBasePurple90: #321060;    
+    /* Use for text and icons */
+    --colorBasePurple95: #290c51;    
+    /* Use for text and icons */
+    --colorBasePurple100: #1e073e;    
+    --colorBasePink5: #fff8fa;    
+    --colorBasePink10: #fef0f5;    
+    --colorBasePink20: #fdd5e4;    
+    --colorBasePink30: #fbb2cf;    
+    --colorBasePink40: #f981b7;    
+    --colorBasePink50: #f44ca2;    
+    --colorBasePink60: #cc2882;    
+    --colorBasePink70: #9a1b60;    
+    --colorBasePink80: #730045;    
+    --colorBasePink90: #50002e;    
+    --colorBasePink95: #430026;    
+    --colorBasePink100: #33001b;    
+    --colorBaseYellow5: #fdf9eb;    
+    --colorBaseYellow10: #fcf4d6;    
+    --colorBaseYellow20: #fadd99;    
+    --colorBaseYellow30: #f1c21b;    
+    --colorBaseYellow40: #d2a106;    
+    --colorBaseYellow50: #b28600;    
+    --colorBaseYellow60: #8e6a00;    
+    --colorBaseYellow70: #684e00;    
+    --colorBaseYellow80: #483700;    
+    --colorBaseYellow90: #302400;    
+    --colorBaseYellow95: #261c00;    
+    --colorBaseYellow100: #1c1500;    
+    --colorBaseTeal5: #e7fefe;    
+    --colorBaseTeal10: #cdfdfd;    
+    --colorBaseTeal20: #83f1f1;    
+    --colorBaseTeal30: #3ddbdb;    
+    --colorBaseTeal40: #00bbbb;    
+    --colorBaseTeal50: #009e9e;    
+    --colorBaseTeal60: #1e7c7b;    
+    --colorBaseTeal70: #005c5c;    
+    --colorBaseTeal80: #004140;    
+    --colorBaseTeal90: #002b2b;    
+    --colorBaseTeal95: #002222;    
+    --colorBaseTeal100: #001919;    
+    --colorSemanticPrimaryPrimaryActivebackground: #453e96;    
+    --colorSemanticPrimaryPrimaryHoverbackground: #5a52b4;    
+    --colorSemanticPrimaryPrimaryHovercolor: #ffffff;    
+    --colorSemanticPrimaryPrimaryBackground: #6b62cc;    
+    --colorSemanticPrimaryPrimaryColor: #ffffff;    
+    --colorSemanticPrimaryPrimaryInnactivebackground: #d8d8f6;    
+    --colorSemanticPrimaryPrimaryBorder: #6b62cc;    
+    --colorSemanticPrimaryHoverinnactivebackground: #c0c2f3;    
+    --colorSemanticTextTextInverse: #ffffff;    
+    --colorSemanticTextTextSubtext: #545e5f;    
+    --colorSemanticTextTextHeadline: #293333;    
+    --colorSemanticTextTextBody: #384141;    
+    --colorSemanticErrorErrorColor: #b6403b;    
+    --colorSemanticErrorErrorIcon: #b6403b;    
+    --colorSemanticErrorErrorBorder: #ef8674;    
+    --colorSemanticErrorErrorBackground: #f8d7d3;    
+    --colorSemanticWarningWarningColor: #8b4f1f;    
+    --colorSemanticWarningWarningIcon: #ba7506;    
+    --colorSemanticWarningWarningBorder: #fad961;    
+    --colorSemanticWarningWarningBackground: #fbeed1;    
+    --colorSemanticSuccessSuccessColor: #2d6944;    
+    --colorSemanticSuccessSuccessIcon: #3c884d;    
+    --colorSemanticSuccessSuccessBorder: #8fda75;    
+    --colorSemanticSuccessSuccessBackground: #ddf3d9;    
+    --colorSemanticInfoInfoColor: #3a79bd;    
+    --colorSemanticInfoInfoIcon: #306ca5;    
+    --colorSemanticInfoInfoBorder: #6aacef;    
+    --colorSemanticInfoInfoBackground: #e0f1fe;    
+    --colorSemanticOpportunityOpportunityColor: #357a7b;    
+    --colorSemanticOpportunityOpportunityIcon: #357a7b;    
+    --colorSemanticOpportunityOpportunityBorder: #6addc6;    
+    --colorSemanticOpportunityOpportunityBackground: #d5f6ef;    
+    --colorSemanticSaleSale70Background: #f6be41;    
+    --colorSemanticSaleSale50Background: #de638b;    
+    /* Some test description */
+    --colorSemanticSaleSale30Background: #58c1b2;    
+    --colorSemanticSaleSaleColor: #ffffff;    
+    --colorPaletteGreenGreen1100: #0e2a21;    
+    --colorPaletteGreenGreen1000: #1c4130;    
+    --colorPaletteGreenGreen900: #2d6944;    
+    --colorPaletteGreenGreen800: #3c884d;    
+    --colorPaletteGreenGreen700: #4ca45a;    
+    --colorPaletteGreenGreen600: #5ab261;    
+    --colorPaletteGreenGreen500: #78c767;    
+    --colorPaletteGreenGreen400: #8fda75;    
+    --colorPaletteGreenGreen300: #a9e297;    
+    --colorPaletteGreenGreen200: #ccf0c2;    
+    --colorPaletteGreenGreen100: #ddf3d9;    
+    --colorPaletteGreenGreen0: #eef9ec;    
+    --colorPaletteBlueBlue1100: #082036;    
+    --colorPaletteBlueBlue1000: #18395d;    
+    --colorPaletteBlueBlue900: #245685;    
+    /* This is our new main color :) */
+    --colorPaletteBlueBlue800: #306ca5;    
+    --colorPaletteBlueBlue700: #3a79bd;    
+    --colorPaletteBlueBlue600: #4587cd;    
+    --colorPaletteBlueBlue500: #5196dd;    
+    --colorPaletteBlueBlue400: #6aacef;    
+    --colorPaletteBlueBlue300: #aad2f4;    
+    --colorPaletteBlueBlue200: #cde3f7;    
+    --colorPaletteBlueBlue100: #e0f1fe;    
+    --colorPaletteBlueBlue0: #ecf8fe;    
+    /* Darkest aqua there is */
+    --colorPaletteAquaAqua1100: #0b2737;    
+    /* Slightly less aquatic, still deep as an ocean */
+    --colorPaletteAquaAqua1000: #193c4d;    
+    --colorPaletteAquaAqua900: #265d71;    
+    --colorPaletteAquaAqua800: #316c82;    
+    --colorPaletteAquaAqua700: #3a8396;    
+    --colorPaletteAquaAqua600: #4295ab;    
+    --colorPaletteAquaAqua500: #54b5cb;    
+    --colorPaletteAquaAqua400: #6ad3df;    
+    --colorPaletteAquaAqua300: #91e2e1;    
+    --colorPaletteAquaAqua200: #b5f0f1;    
+    --colorPaletteAquaAqua100: #d0f7f8;    
+    --colorPaletteAquaAqua0: #e0fbfb;    
+    --colorPalettePurplePurple1100: #1d1e36;    
+    --colorPalettePurplePurple1000: #2b2667;    
+    --colorPalettePurplePurple900: #453e96;    
+    --colorPalettePurplePurple800: #5a52b4;    
+    --colorPalettePurplePurple700: #6b62cc;    
+    --colorPalettePurplePurple600: #7d73e2;    
+    --colorPalettePurplePurple500: #8d84ed;    
+    --colorPalettePurplePurple400: #9e95ec;    
+    --colorPalettePurplePurple300: #c0c2f3;    
+    --colorPalettePurplePurple200: #d8d8f6;    
+    --colorPalettePurplePurple100: #eaeaf8;    
+    --colorPalettePurplePurple0: #f2f2f8;    
+    --colorPaletteNeutralNeutral1100: #040404;    
+    --colorPaletteNeutralNeutral1000: #182020;    
+    --colorPaletteNeutralNeutral900: #293333;    
+    --colorPaletteNeutralNeutral800: #384141;    
+    --colorPaletteNeutralNeutral700: #545e5f;    
+    --colorPaletteNeutralNeutral600: #70797a;    
+    --colorPaletteNeutralNeutral500: #939a9b;    
+    --colorPaletteNeutralNeutral400: #b1b6b7;    
+    --colorPaletteNeutralNeutral300: #c9cccc;    
+    --colorPaletteNeutralNeutral200: #dfe1e1;    
+    --colorPaletteNeutralNeutral100: #f3f4f4;    
+    --colorPaletteNeutralNeutral0: #ffffff;    
+    --colorPaletteTealTeal1100: #0b2427;    
+    --colorPaletteTealTeal1000: #1b3e3e;    
+    --colorPaletteTealTeal900: #2a6461;    
+    --colorPaletteTealTeal800: #357a7b;    
+    --colorPaletteTealTeal700: #42948e;    
+    --colorPaletteTealTeal600: #4aa69c;    
+    --colorPaletteTealTeal500: #58c1b2;    
+    --colorPaletteTealTeal400: #6addc6;    
+    --colorPaletteTealTeal300: #97e7d5;    
+    --colorPaletteTealTeal200: #c0f0e6;    
+    --colorPaletteTealTeal100: #d5f6ef;    
+    --colorPaletteTealTeal0: #e9f8f5;    
+    --colorPalettePinkPink1100: #281821;    
+    --colorPalettePinkPink1000: #4f1930;    
+    --colorPalettePinkPink900: #872647;    
+    --colorPalettePinkPink800: #a43b5b;    
+    --colorPalettePinkPink700: #be4466;    
+    --colorPalettePinkPink600: #cf517c;    
+    --colorPalettePinkPink500: #de638b;    
+    --colorPalettePinkPink400: #ee7fad;    
+    --colorPalettePinkPink300: #f19bc0;    
+    --colorPalettePinkPink200: #f4b8d4;    
+    --colorPalettePinkPink100: #f7dcea;    
+    --colorPalettePinkPink0: #fbeaf2;    
+    --colorPaletteRedRed1100: #281212;    
+    --colorPaletteRedRed1000: #641c18;    
+    --colorPaletteRedRed900: #8d2d28;    
+    --colorPaletteRedRed800: #b6403b;    
+    --colorPaletteRedRed700: #ca4b45;    
+    --colorPaletteRedRed600: #dc584a;    
+    --colorPaletteRedRed500: #e56a5b;    
+    --colorPaletteRedRed400: #ef8674;    
+    --colorPaletteRedRed300: #f1a193;    
+    --colorPaletteRedRed200: #f4bbb3;    
+    --colorPaletteRedRed100: #f8d7d3;    
+    --colorPaletteRedRed0: #fbebe9;    
+    --colorPaletteOrangeOrange1100: #2a140f;    
+    --colorPaletteOrangeOrange1000: #581d09;    
+    --colorPaletteOrangeOrange900: #8a341a;    
+    --colorPaletteOrangeOrange800: #bf5c29;    
+    --colorPaletteOrangeOrange700: #de763a;    
+    --colorPaletteOrangeOrange600: #e68246;    
+    --colorPaletteOrangeOrange500: #ee8e53;    
+    --colorPaletteOrangeOrange400: #f2a069;    
+    /* This is our main color. And this description will show inside the documentation */
+    --colorPaletteOrangeOrange300: #f4b388;    
+    --colorPaletteOrangeOrange200: #f6c7a9;    
+    --colorPaletteOrangeOrange100: #f7ddce;    
+    --colorPaletteOrangeOrange0: #fceee4;    
+    --colorPaletteYellowYellow1100: #2a1b08;    
+    --colorPaletteYellowYellow1000: #4e2c0b;    
+    --colorPaletteYellowYellow900: #8b4f1f;    
+    --colorPaletteYellowYellow800: #b0772a;    
+    --colorPaletteYellowYellow700: #d49b35;    
+    --colorPaletteYellowYellow600: #f6be41;    
+    --colorPaletteYellowYellow500: #f8ce4c;    
+    --colorPaletteYellowYellow400: #fad961;    
+    --colorPaletteYellowYellow300: #fbe17f;    
+    --colorPaletteYellowYellow200: #fbe9a4;    
+    --colorPaletteYellowYellow100: #fbeed1;    
+    --colorPaletteYellowYellow0: #fef8e4;    
+    --colorPaletteMagentaMagenta1100: #271a2c;    
+    --colorPaletteMagentaMagenta1000: #3f1a4e;    
+    --colorPaletteMagentaMagenta900: #642a73;    
+    --colorPaletteMagentaMagenta800: #854091;    
+    --colorPaletteMagentaMagenta700: #a04da3;    
+    --colorPaletteMagentaMagenta600: #b659b4;    
+    --colorPaletteMagentaMagenta500: #cc6bd5;    
+    --colorPaletteMagentaMagenta400: #e38aef;    
+    --colorPaletteMagentaMagenta300: #e3b1ee;    
+    --colorPaletteMagentaMagenta200: #ecc7f4;    
+    --colorPaletteMagentaMagenta100: #f5e4fa;    
+    --colorPaletteMagentaMagenta0: #fcf0fe;    
+}

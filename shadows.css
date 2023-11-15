@@ -1,0 +1,11 @@
+
+:root {
+    --shadowShadowPrimaryInner: inset 0 0 14px 0 rgba(0,0,0,0.35);  
+    --shadowShadowPrimaryBox: 0 4px 24px 0 rgba(0,0,0,0.35);  
+    --shadowShadowMultiLayerShadow: inset 0 0 14px 0 rgba(0,0,0,0.35);  
+    --shadowElevationShadowM: 0 2px 6px 0 rgba(0,0,0,0.25);  
+    --shadowElevationShadowL: 0 4px 8px 0 rgba(0,0,0,0.3);  
+    --shadowShadowPopup: 0 8px 16px 0 rgba(4,10,30,0.1);  
+    --shadowShadowHoverSmallArea: 0 4px 8px 0 rgba(4,10,30,0.08);  
+    --shadowShadowHoverLargeArea: 0 4px 8px 0 rgba(4,10,30,0.04);  
+}
