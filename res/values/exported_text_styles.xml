@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <style name="TypographyStyle1">
+        <item name="android:textSize">42sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/fugaz_one_400</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="TypographyStyle2">
+        <item name="android:textSize">32sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/jacques_francois_shadow_400</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="TypographyStyle3">
+        <item name="android:textSize">22sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/jura_600</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="H1">
+        <item name="android:textSize">57sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/blatant_700</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="H2">
+        <item name="android:textSize">43sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/blatant_700</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="H3">
+        <item name="android:textSize">32sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/blatant_700</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="H4">
+        <item name="android:textSize">24sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/blatant_700</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="H5">
+        <item name="android:textSize">21sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/blatant_700</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="LargeLead">
+        <item name="android:textSize">24sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/blatant_400</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="MediumLead">
+        <item name="android:textSize">21sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/blatant_400</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="ButtonLabel">
+        <item name="android:textSize">21sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/blatant_400</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Paragraph">
+        <item name="android:textSize">18sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/blatant_400</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="SmallParagraph">
+        <item name="android:textSize">16sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/blatant_400</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="TinyParagraph">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/blatant_400</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Sale">
+        <item name="android:textSize">24sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/blatant_700</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Docs40Bold670">
+        <item name="android:textSize">40sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/inter_670</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Docs40Bold">
+        <item name="android:textSize">40sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/inter_700</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Docs32Bold">
+        <item name="android:textSize">32sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/inter_700</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Docs32BoldUnderline">
+        <item name="android:textSize">32sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/inter_700</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Docs28Bold">
+        <item name="android:textSize">28sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/inter_700</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Docs28BoldUnderline">
+        <item name="android:textSize">28sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/inter_700</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Docs24Bold">
+        <item name="android:textSize">24sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/inter_700</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Docs24BoldUnderline">
+        <item name="android:textSize">24sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/inter_700</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Docs20Regular">
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/inter_400</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Docs20Bold">
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/inter_700</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Docs20BoldUnderline">
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/inter_700</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Docs16Regular">
+        <item name="android:textSize">16sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/inter_400</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Docs16RegularUnderline">
+        <item name="android:textSize">16sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/inter_400</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Docs16ItalicUnderline">
+        <item name="android:textSize">16sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/inter_400</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Docs16Medium">
+        <item name="android:textSize">16sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/inter_500</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Docs16Bold">
+        <item name="android:textSize">16sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/inter_700</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Docs14Regular">
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/inter_400</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Docs14RegularUnderline">
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/inter_400</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Docs14Semibold">
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/inter_600</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Docs14Bold">
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/inter_700</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Docs13Medium">
+        <item name="android:textSize">13sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/inter_500</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Docs12Regular">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/inter_400</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Docs12RegularUnderline">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/inter_400</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Docs12Medium">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/inter_500</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Docs14InlineCode">
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/fira_mono_500</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Docs11BoldCaps">
+        <item name="android:textSize">11sp</item>
+        <item name="android:letterSpacing">4</item>
+        <item name="android:fontFamily">@font/inter_700</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="ParagraphM">
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/source_sans_pro_400</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="ParagraphS">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/source_sans_pro_400</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="ParagraphSBold">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/source_sans_pro_600</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="ParagraphMBold">
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/source_sans_pro_600</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Text12Semibold">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/inter_600</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Text12Regular">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/inter_400</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Text12RegularUnderline">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/inter_400</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Text12Medium">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/inter_500</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Text11Regular">
+        <item name="android:textSize">11sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/inter_400</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Text11RegularUnderline">
+        <item name="android:textSize">11sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/inter_400</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Text11RegularItalic">
+        <item name="android:textSize">11sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/inter_400</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Text11MediumUnderline">
+        <item name="android:textSize">11sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/inter_500</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Code12Medium">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/fira_mono_500</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Code12Regular">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/fira_mono_400</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Code11Regular">
+        <item name="android:textSize">11sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/fira_mono_400</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Code11Medium">
+        <item name="android:textSize">11sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/fira_mono_500</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Code11MediumUnderline">
+        <item name="android:textSize">11sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/fira_mono_500</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Code11MediumItalic">
+        <item name="android:textSize">11sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/fira_mono_400</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Code11Bold">
+        <item name="android:textSize">11sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/fira_mono_700</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Ui80ExtraLight">
+        <item name="android:textSize">80sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/inter_200</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Ui32Regular">
+        <item name="android:textSize">32sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/inter_400</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Ui32Extrabold">
+        <item name="android:textSize">32sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/inter_800</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Ui24Regular">
+        <item name="android:textSize">24sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/inter_400</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Ui24Extrabold">
+        <item name="android:textSize">24sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/inter_800</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Ui14Regular">
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/inter_400</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Ui14Semibold">
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/inter_600</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Ui12Regular">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/inter_400</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Ui12RegularUnderline">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/inter_400</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Ui12RegularItalic">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/inter_400</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Ui12Medium">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/inter_500</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Ui12Semibold">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/inter_600</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Ui12SemiboldUnderline">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/inter_600</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Ui12SemiboldCaps">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/inter_600</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Ui11Regular">
+        <item name="android:textSize">11sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/inter_400</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Ui11RegularCaps">
+        <item name="android:textSize">11sp</item>
+        <item name="android:letterSpacing">3</item>
+        <item name="android:fontFamily">@font/inter_400</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Ui11Semibold">
+        <item name="android:textSize">11sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/inter_600</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Ui11SemiboldCaps">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/inter_600</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Ui11SemiboldCapsUnderline">
+        <item name="android:textSize">11sp</item>
+        <item name="android:letterSpacing">4</item>
+        <item name="android:fontFamily">@font/inter_600</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Ui11Medium">
+        <item name="android:textSize">11sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/inter_500</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Ui10SemiboldCaps">
+        <item name="android:textSize">10sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/inter_600</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="HeadingL">
+        <item name="android:textSize">18sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/source_sans_pro_600</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="HeadingM">
+        <item name="android:textSize">16sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/source_sans_pro_600</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="HeadingS">
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/source_sans_pro_600</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+</resources>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
