@@ -1,0 +1,46 @@
+
+:root {
+    --gradientGradientOcean: radial-gradient(
+          circle at center,
+          #0368ff 0%,   
+          #10e7e2 100%  
+        )
+        ;    
+    --gradientGradientSunrise: linear-gradient(
+          135deg,
+          #ca7cd8 0%,   
+          #ff68a8 37%,   
+          #f9eb0f 100%  
+        )
+        ;    
+    --gradientGradientMultilayerGradient: radial-gradient(
+          circle at center,
+          #00ffff 0%,   
+          #ffff00 100%  
+        )
+        ;    
+    --gradientBrandingTwilight: linear-gradient(
+          90deg,
+          #19426c 0%,   
+          #2c1f56 100%  
+        )
+        ;    
+    --gradientBrandingNavigation: linear-gradient(
+          90deg,
+          #19426c 0%,   
+          #2c1f56 100%  
+        )
+        ;    
+    --gradientSpecialBlanketGradient: linear-gradient(
+          180deg,
+          #14161852 0%,   
+          #14161800 100%  
+        )
+        ;    
+    --gradientSpecialFade: linear-gradient(
+          90deg,
+          #ffffff00 0%,   
+          #ffffff 100%  
+        )
+        ;    
+}
