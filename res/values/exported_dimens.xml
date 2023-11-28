@@ -1,14 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
  
+
+    <dimen name="dimension_this_is_an_other_token">1dp</dimen> 
+ 
+
+    <dimen name="dimension_dimension_paragraph_indent_0">0dp</dimen> 
  
  
  
  
  
+
+    <dimen name="font_size_font_size_font_size_0">22dp</dimen>
+    <dimen name="font_size_font_size_font_size_1">32dp</dimen>
+    <dimen name="font_size_font_size_font_size_2">42dp</dimen> 
  
  
+
+    <dimen name="line_height_line_height_line_heights_0">0dp</dimen> 
  
+ 
+
+    <dimen name="letter_spacing_letter_spacing_letter_spacing_0">0dp</dimen> 
+ 
+ 
+
+    <dimen name="paragraph_spacing_paragraph_spacing_paragraph_spacing_0">0dp</dimen> 
  
  
  
