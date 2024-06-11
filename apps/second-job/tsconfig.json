@@ -2,14 +2,16 @@
   "extends": "tsconfig/nextjs.json",
   "compilerOptions": {
     "noEmit": true,
-    "jsx": "react-jsx",
+    "jsx": "preserve",
     "plugins": [
       {
         "name": "next"
       }
     ],
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": [
+        "./src/*"
+      ]
     }
   },
   "include": [
@@ -19,5 +21,7 @@
     ".next/types/**/*.ts",
     "/Users/martinjordan/Developer/Personal/martinjordan-dev/apps/second-job/.next/types/**/*.ts"
   ],
-  "exclude": ["node_modules"]
+  "exclude": [
+    "node_modules"
+  ]
 }
