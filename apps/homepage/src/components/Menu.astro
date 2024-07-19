@@ -1,7 +1,7 @@
 ---
 import DrawerButton from './DrawerButton.astro';
-import LinkButton from './LinkButton.astro';
 import UnderlineAnimate from './UnderlineAnimate.astro';
+import { ResumeButton } from './ResumeButton'
 
 interface Props {
 	items: Array<{ id: string; value: string }>;
@@ -21,7 +21,7 @@ const { items } = Astro.props;
 				</UnderlineAnimate>
 			))
 		}
-		<LinkButton href='resume.pdf'>Resume</LinkButton>
+		<ResumeButton client:only="react" />
 	</ul>
 	<div class='xl:hidden flex'>
 		<DrawerButton />
