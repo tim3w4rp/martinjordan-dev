@@ -55,7 +55,7 @@ export const Resume = (props) => (
       <View style={{}}>
         <View style={{ display: 'flex', flexDirection: 'row', gap: 20 }}>
           <View>
-            <Image style={{ width: 120, height: 120 }} src="../../public/M.jpg" />
+            <Image style={{ width: 120, height: 120 }} src="/M.jpg" />
           </View>
           <View style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between', padding: 4 }}>
             <View style={{ display: 'flex', flexDirection: 'column' }}>
