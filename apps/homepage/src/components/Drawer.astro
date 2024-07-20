@@ -1,6 +1,7 @@
 ---
 import { menuItems } from '../constants';
 import LinkButton from './LinkButton.astro';
+import { ResumeButton } from './ResumeButton';
 ---
 
 <div
@@ -44,6 +45,6 @@ import LinkButton from './LinkButton.astro';
 			href='https://www.linkedin.com/in/martin-jordan/'
 			icon='linkedin'
 		/>
-		<LinkButton href='resume.pdf'>CV</LinkButton>
+		<ResumeButton client:only="react">CV</ResumeButton>
 	</div>
 </div>
